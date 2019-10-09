@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
+        <module name="comment-srv" />
+        <module name="eureka-sever" />
+        <module name="hystrixdashboard" />
+        <module name="user-service" />
+      </profile>
+      <profile name="Annotation profile for house-micro-service" enabled="true">
+        <sourceOutputDir name="../house-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../house-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="house-srv" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="house-service" target="1.8" />
+      <module name="house-service (1)" target="1.8" />
+      <module name="house-service (2)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
